@@ -1,2 +1,5 @@
 # djangogirls-example
-sample code from http://djangogirls.org/
+sample code from Django girls taiwan, http://djangogirls.org/
+http://djangogirls.org/taipei/
+
+This example's coding is from http://djangogirlstaipe.gitbooks.io/django-girls-taipei-tutorial/content/
