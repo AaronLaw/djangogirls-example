@@ -1,2 +1,9 @@
 <!-- home.html -->
-{{posts}}
+{% for post in posts %}
+	<article>
+	{{post.title}}
+	{{post.created_at}}
+	{{post.photo}}
+	{{post.content}}
+	</article>
+{% endfor %}
