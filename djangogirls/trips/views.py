@@ -10,3 +10,7 @@ def home(request):
 	# get all the posts
 	posts = Post.objects.all()
 	return render(request, 'home.html', {'posts':posts})
+
+def post_detail(request, id):
+	post = Post.objects.get(id=id)
+	return render(request, 'post.html', {'post':post})
