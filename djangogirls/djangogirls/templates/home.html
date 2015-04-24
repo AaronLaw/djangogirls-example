@@ -3,7 +3,13 @@
 	<article>
 	{{post.title}}
 	{{post.created_at}}
-	{{post.photo}}
+	{% if post.photo %}
+		<div class="thumbnail">
+			<img src="{{post.photo}}" alt="">
+		</div>
+	{% else %}
+		<div class="thumbnail thumbnail-default"></div>
+	{% endif %}
 	{{post.content}}
 	</article>
 {% endfor %}
