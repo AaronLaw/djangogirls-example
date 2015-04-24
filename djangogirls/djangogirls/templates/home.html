@@ -2,7 +2,7 @@
 {% for post in posts %}
 	<article>
 	{{post.title}}
-	{{post.created_at}}
+	{{post.created_at|date:"Y / m / d"}}
 	{% if post.photo %}
 		<div class="thumbnail">
 			<img src="{{post.photo}}" alt="">
