@@ -6,6 +6,21 @@ This example's coding is from http://djangogirlstaipe.gitbooks.io/django-girls-t
 
 I use virtualenv and virtualenv wrapper to isolate the dev environment.
 
+## Usage
+After install virtualenv, activate it by:
+
+`mkdir ~/Envs`
+`cd ~/Envs`
+`virtualenv env1` # setup virtualenv at /home
+`source env1/bin/activate'
+
+or deactivate it by
+`deactivate`
+
+To run the test server:
+`cd djangogirls`
+`python manage.py runserver`
+
 ## Deployment
 在眾多服務提供者中，我們選擇 [Heroku] (https://www.heroku.com/) 作為這次的範例， 它的免費額度足夠經營一個小型網站，並擁有完善的開發者教學資源。
 
